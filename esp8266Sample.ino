@@ -167,8 +167,8 @@ String sendToWifi(String command, const int timeout, boolean debug){
 }
 
 /*
-* Name: sendToWifi
-* Description: Function used to send data to ESP8266.
+* Name: sendToUno
+* Description: Function used to send data to Arduino.
 * Params: command - the data/command to send; timeout - the time to wait for a response; debug - print to Serial window?(true = yes, false = no)
 * Returns: The response from the esp8266 (if there is a reponse)
 */
