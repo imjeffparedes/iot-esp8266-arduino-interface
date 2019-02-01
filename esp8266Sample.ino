@@ -54,10 +54,10 @@ void loop()
     if(find(message,"HELLO")){  //receives HELLO from wifi
         sendData("\\nHI!");    //arduino says HI
     }else if(find(message,"LEDON")){
-      //sending ph level:
+      //turn on built in LED:
       digitalWrite(13,HIGH);
     }else if(find(message,"LEDOFF")){
-      //sending ph level:
+      //turn off built in LED:
       digitalWrite(13,LOW);
     }
     else{
