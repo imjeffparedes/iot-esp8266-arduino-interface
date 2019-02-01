@@ -92,9 +92,7 @@ void sendData(String str){
 * Returns: true if match else false
 */
 boolean find(String string, String value){
-  if(string.indexOf(value)>=0)
-    return true;
-  return false;
+  return string.indexOf(value)>=0;
 }
 
 
